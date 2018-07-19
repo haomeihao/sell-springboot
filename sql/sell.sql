@@ -11,7 +11,6 @@ create table `product_info` (
   primary key (`product_id`)
 ) comment '商品表';
 
-
 create table `product_category` (
   `category_id` int not null auto_increment,
   `category_name` varchar(64) not null comment '类目名称',
@@ -50,3 +49,7 @@ create table `order_detail` (
   primary key (`detail_id`),
   key `idx_order_id` (`order_id`)
 ) comment '订单详情表';
+
+-- 修改表结构
+-- 添加一列
+alter table `product_info` add column `product_status` int not null default '0' comment '商品状态 默认0正常 1下架' after `product_icon`

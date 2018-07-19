@@ -15,7 +15,7 @@ sell project by springboot
   配置：
     application.yml 简单
     logback-spring.xml 复杂
-5.买家端开发：
+5.卖家端开发：
     DAO -> Service -> Controller
     
     @GeneratedValue注解
@@ -26,4 +26,7 @@ sell project by springboot
       AUTO：主键由程序控制 默认
     @DynamicUpdate 动态更新 只有属性修改才会更新时间
     @Transactional 单元测试加上完全回滚
+6.买家端接口开发
+    第1步 接口文档约定
+    @JsonProperty("name")
 ```
