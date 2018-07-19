@@ -1,9 +1,9 @@
-#app≈‰÷√
+#app
 server:
   port: 8082
   servlet:
     context-path: /sell
-#spring≈‰÷√
+#spring
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -12,7 +12,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
-#log≈‰÷√
+#log
 logging:
   pattern:
 #    console: "%d - %msg%n"
