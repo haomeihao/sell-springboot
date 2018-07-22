@@ -15,7 +15,7 @@ sell project by springboot
   配置：
     application.yml 简单
     logback-spring.xml 复杂
-5.卖家端开发：
+5.买家端开发：
     DAO -> Service -> Controller
     
     @GeneratedValue注解
@@ -29,4 +29,11 @@ sell project by springboot
 6.买家端接口开发
     第1步 接口文档约定
     @JsonProperty("name")
+    
+    @Transient
+    
+    @Transactional (商品服务、订单服务)
+      下单、减库存
+      取消订单、加库存
+      订单支付完成、完结订单
 ```
