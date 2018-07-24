@@ -1,6 +1,6 @@
 #app
 server:
-  port: 8082
+  port: 8080
   servlet:
     context-path: /sell
 #spring
@@ -23,3 +23,7 @@ logging:
 #  level: debug
 #  level:
 #    org.shao.LoggerTest: debug
+
+wechat:
+  mpAppId: wx1ca2497f77b3d717
+  mpAppSecret: 6613fda2ee6cf43769b85f4ba7d06b8a
